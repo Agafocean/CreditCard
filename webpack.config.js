@@ -21,7 +21,8 @@ module.exports = {
   devServer: {
     open: true,
     compress: true,
-    hot: true
+    hot: true,
+    disableHostCheck: true
   },
 
   plugins: [
