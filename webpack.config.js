@@ -24,7 +24,7 @@ module.exports = {
     hot: true,
     port: 8080,  
     host: '0.0.0.0',
-    public: 'onrender.com'
+    allowedHosts: 'all'
   },
 
   plugins: [
