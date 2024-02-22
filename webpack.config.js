@@ -23,7 +23,8 @@ module.exports = {
     compress: true,
     hot: true,
     port: 8080,  
-    https: true
+    host: '0.0.0.0',
+    public: 'onrender.com'
   },
 
   plugins: [
